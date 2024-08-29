@@ -1,0 +1,694 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.nav-btn {
+  color: rgba(255, 87, 34, 1);
+  padding: 6px 12px;
+  border-radius: 0;
+}
+.nav-btn:hover {
+  background-color: rgba(255, 87, 34, 1);
+  box-shadow: 0px 4px 16px 0px rgba(255, 87, 34, 0.32);
+  color: white;
+}
+.navtext {
+  font-weight: 500;
+}
+.header-container .nav-link {
+  padding: 0;
+}
+.heading {
+  color: rgba(16, 55, 92, 1);
+}
+.heading span {
+  font-size: 30px;
+  position: static;
+}
+.custom-field label {
+  position: relative;
+  top: 30px;
+  left: 18px;
+  /* margin: 10px 0px; */
+}
+.dropdowncustom {
+  padding: 20px 0px;
+}
+.line {
+  margin: 0px 6px;
+  position: relative;
+  bottom: 6px;
+}
+/*----------------------- CROUSEL ONE------------------ */
+.crousal-one {
+  position: relative;
+  .owl-dots {
+    text-align: center;
+    /* padding-top: 15px; */
+    position: relative;
+    bottom: 80px;
+  }
+  .owl-dots button.owl-dot {
+    width: 30px;
+    height: 4px;
+    /* border-radius: 50%; */
+    /* display: inline-block; */
+    background: white;
+    /* gap: 3px; */
+    margin: 0 3px;
+  }
+  .owl-dots button.owl-dot.active {
+    background-color: rgba(255, 87, 34, 1);
+    width: 60px;
+  }
+  .owl-dots button.owl-dot:focus {
+    outline: none;
+  }
+  .owl-carousel .owl-dots.disabled,
+  .owl-carousel {
+    display: block;
+  }
+  .owl-carousel .owl-item img {
+    width: 100%;
+  }
+}
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+.custom-form-field {
+  background-color: #0d2c4a;
+  padding: 10px 15px 15px 15px;
+  display: flex;
+  flex-direction: column;
+
+  select {
+    color: white;
+    border: none;
+    /* width:100% ; */
+    /* width: 360px; */
+
+    padding: 0;
+    /* background-position: right .75rem 60%!important */
+    background-position: right 0.4rem bottom 1rem;
+    background-color: transparent;
+    font-size: 14px;
+  }
+
+  select:focus {
+    border-color: transparent;
+    outline: 0;
+    box-shadow: 0 0 0;
+  }
+  label {
+    margin: 4px;
+    font-size: 14px;
+  }
+}
+.custom-card {
+  padding: 20px 20px;
+  background-color: #10375c;
+  width: 350px;
+  position: relative;
+
+  z-index: 99;
+  bottom: -138px;
+  left: 190px;
+
+  .form-btn button,
+  .custom-card-2 .form-btn button {
+    padding: 10px 0px;
+    width: 100%;
+    background-color: #ff5722;
+  }
+}
+
+.space-container {
+  h2 {
+    color: #10375c;
+  }
+}
+/* --------------------- CROUSAL-TWO-------------------- */
+.crousal-two {
+  position: relative;
+  /* margin-bottom: 150px; */
+
+  .owl-carousel .owl-dots.disabled,
+  .owl-carousel {
+    display: block;
+  }
+
+  .owl-carousel .owl-item .blue-card .blue-card-text img {
+    /* display: block; */
+    /* display: block; */
+    width: 35%;
+    position: relative;
+    /* right: -19px; */
+    left: 150px;
+    top: 29px;
+    /* margin-left: 200px; */
+    padding: 20px;
+
+    /* width: 100px; */
+    /* margin-left: 200px; */
+    /* padding: 20px; */
+  }
+
+  .owl-carousel .owl-item .blue-card img {
+    /* display: block; */
+    width: 100%;
+  }
+
+  .owl-carousel {
+    display: block;
+    height: 500px !important;
+  }
+
+  .owl-carousel .owl-item .custom-btn .orange-btn {
+    width: 20%;
+    bottom: 33px;
+    position: absolute;
+    opacity: 1;
+    /* display: block; */
+  }
+  .owl-carousel .owl-item .blue-card {
+    height: 380px;
+   
+  }
+
+  .owl-carousel .owl-item .custom-btn .expand-btn {
+    /* display: none; */
+    width: 70%;
+    bottom: 33px;
+    position: absolute;
+    opacity: 0;
+  }
+  .owl-carousel .owl-item .cards:hover .custom-btn .expand-btn {
+    opacity: 1;
+    display: flex;
+  }
+  .owl-carousel .owl-item .cards:hover .custom-btn .orange-btn {
+    opacity: 0;
+  }
+  
+
+  .owl-carousel .owl-dots {
+    /* padding-top: 60px; */
+
+    text-align: center;
+  }
+  .owl-dots button.owl-dot {
+    width: 50px;
+    height: 4px;
+
+    background: grey;
+
+    margin: 0px;
+  }
+  .owl-dots button.owl-dot.active {
+    background-color: #dd2c00;
+    width: 50px;
+  }
+  .owl-dots button.owl-dot:focus {
+    outline: none;
+  }
+  .owl-carousel .owl-dots.disabled,
+  .owl-carousel {
+    display: block;
+  }
+  .owl-height {
+    height: 500px !important;
+  }
+ 
+
+  .custom-txt {
+    text-align: center;
+    margin-top: 9px;
+  }
+}
+
+.custom-nav .slide-prev,
+.slide-next {
+  background: none;
+  border: none;
+}
+.feature-container {
+  margin-top: 240px;
+}
+
+.features {
+  gap: 21px;
+  img {
+    width: 12%;
+    margin-bottom: 30px;
+  }
+  h6 {
+    font-size: 25px;
+    color: #10375c;
+  }
+}
+.whyfrispescard {
+  background-color: #10375c;
+  padding: 40px 40px;
+  /* height: 400px; */
+  h3 {
+    font-size: 38px;
+  }
+}
+.facilities {
+  .facilities-head {
+    font-family: lora;
+    p {
+      font-size: 18px;
+    }
+    h3 {
+      font-weight: bold;
+      color: #10375c;
+      font-size: 38px;
+    }
+  }
+  .facilities-tabs-img img {
+    transition: all 300ms ease;
+    width: 100%;
+  }
+  .progress {
+    position: relative;
+    left: 17px;
+    height: 350px;
+    width: 4px;
+    margin: 11px 0px;
+  }
+  .progress-bar {
+    background-color: #ff5722;
+  }
+
+  .nav-pills .nav-link.active {
+    color: #fff;
+    border: #ff5722;
+    background-color: #ff5722;
+    border-radius: 0;
+    box-shadow: 0px 0px 12px grey;
+    transition: all 300ms ease;
+  }
+
+  .nav-link {
+    border: black;
+    color: black;
+    font-size: 17px;
+    /* transition: all 0.3s ease-out; */
+  }
+}
+
+.mycard-text{
+ position: relative;
+ bottom: 17rem;
+ margin: 0px 1rem;
+
+
+}
+.owl-carousel  .mycarditem .custom-btn{
+  position: relative;
+  bottom: 68px;
+}
+.owl-carousel  .mycarditem .custom-btn .orange-btn {
+  width: 20%;
+  bottom: 33px;
+  position: absolute;
+  opacity: 1;
+  /* display: block; */
+}
+
+
+.owl-carousel .mycarditem .custom-btn .expand-btn {
+  /* display: none; */
+  width: 70%;
+  bottom: 33px;
+  position: absolute;
+  opacity: 0;
+}
+.owl-carousel .mycarditem:hover .custom-btn .expand-btn {
+  opacity: 1;
+  display: flex;
+}
+.owl-carousel  .mycarditem:hover .custom-btn .orange-btn {
+  opacity: 0;
+}
+/*-------------------------------------- Gallery-------------------------- */
+.gallery-container {
+  margin-top: 20px;
+  /* height: 1100px; */
+}
+.gallery-header {
+  margin-left: 500px;
+  h3 {
+    color: #10375c;
+    font-size: 38px;
+  }
+}
+.gallery-carousel {
+  height: 500px;
+  margin-top: -55px;
+}
+.gallery-carousel .owl-item img {
+  height: 450px;
+  width: 250px;
+}
+.gallery-carousel .owl-item {
+  width: 250px !important;
+}
+
+.gallery-carousel .owl-stage-outer {
+  height: 700px;
+}
+.gallery-carousel .owl-item {
+  /* transform: scale(0.5);  */
+  transition: transform 0.3s ease;
+  margin-left: -60px;
+  /* position: relative; */
+  /* top: 20px; */
+}
+
+.gallery-carousel .owl-item.center {
+  transform: scaleY(1.5);
+  transform-origin: bottom;
+  z-index: 1;
+}
+/*------------------------------------------- BRANDS------------------------- */
+.brand-container{
+  h3{
+    font-size: 38px;
+    color: #0D2C4A;
+  }
+  p{
+    font-size: 18px;
+  }
+
+}
+.owl-carousel .owl-stage {
+ display: flex;
+ align-items: center;
+}
+/* --------------------------------------- Reviews header  -------------------------------- */
+.review-header{
+ 
+  h3{
+    color: #10375C;
+    font-size: 38px;
+    margin-right: 50px;
+
+
+  }
+
+}
+/* --------------------------------------- Review testimonal  -------------------------------- */
+.review-card{
+  background-color: #10375C;
+  width:400px ;
+  /* height:393px ; */
+  padding: 40px 50px;
+
+  .review-testimonal {
+    padding-top: 60px;
+    .testimonal-txt {
+      position: relative;
+      top: 14px;
+       margin-left: 20px;
+
+    }
+    }
+    .review-card-txt{
+      height: 156px;
+
+    }
+  }
+  .x-small{
+    font-size: 12px;
+
+  }
+/* --------------------------------------- Review Carousel -------------------------------- */
+.review-carousel .owl-item img {
+    display: block;
+    width: 15%;
+}
+.owl-dots {
+  text-align: center;
+  padding-top: 20px;
+
+}
+.owl-dots button.owl-dot {
+  width: 50px;
+  height: 4px;
+  background: grey;
+
+}
+.owl-dots button.owl-dot.active {
+  background-color: rgba(255, 87, 34, 1);
+  width: 40px;
+}
+.owl-dots button.owl-dot:focus {
+  outline: none;
+}
+.review-carousel .owl-dots.disabled,
+.review-carousel {
+  display: block;
+}
+/* ------------------------------------------ Help center header----------------------- */
+.helpcenter-header{
+  h3{
+   color: #10375C;
+   /* margin: 0px 300px; */
+
+  }
+
+}
+/* ------------------------------------------ Help center card----------------------- */
+
+.helpcenter-card{
+  margin: 0px 10px;
+  box-shadow: 0px 0px 12px grey;
+transition: all 200ms ease;
+padding: 0px 60px;
+width: 300px;
+  .cutsom-svg-img{
+    
+    position: relative;
+    top: 3px;
+    margin: 0rem 4rem;
+    background-color: #FF5722;
+    top: 32px;
+    padding: 10px;
+
+  }
+  
+}
+.helpcenter-card:hover{
+  color: white!important;
+   
+  background-color:#FF5722 ;
+  .cutsom-svg-img{
+    
+    path{
+      fill: #FF5722
+  } 
+  background-color: white; 
+
+}
+
+  }
+  .question{
+    p{
+      color: #FF5722;
+    }
+
+  }
+  /* ------------------------------------------ Insight header----------------------- */
+
+
+  .insight-header{
+    h3{
+      color: #10375C;
+      font-size: 38px;
+
+    }
+
+  }
+    /* ------------------------------------------ Insight card----------------------- */
+
+  .insight-card-2{
+    box-shadow: 0px 0px 7px grey;
+   
+    width:350px ;
+    /* height:393px ; */
+    padding: 20px 40px;
+  
+    .insight-testimonal {
+     margin-top: 2rem;
+      .testimonal-txt {
+        position: relative;
+        top: 14px;
+         margin-left: 20px;
+  
+      }
+      }
+     
+    }
+    .insight-card-3{
+      width: 350px;
+
+    }
+    .insight-card-3-txt{
+      box-shadow: 0px 0px 6px lightgray;
+      padding: 30px 20px;
+    }
+    /* .insight-card-1{
+      width: 350px;
+
+    } */
+    .insight-gallery{
+      background-color: #F8F8F8;
+      ;
+
+    }
+  /* ------------------------------------------signup container----------------------- */
+
+    .singup-container{
+      background-color: #10375C;
+      ;
+
+    }
+    .sigup-btn {
+      background-color:  #FF5722;
+      width: 75%;
+      ;
+
+    }
+    .singup-container  .img1{
+      position: relative;
+    left: 9rem;
+    z-index: 99;
+ 
+
+    }
+    .singup-container .img2{
+      position: relative;
+    right: 10rem;
+    
+    }
+    .singup-container .singup-txt{
+      padding: 50px 0px;
+
+    }
+    /* ------------------------------------------ Footer----------------------- */
+
+    .customize-footer{
+      background-color: #0D2C4A;
+
+
+    }
+    
+  
+/* ------------------------------------------ Media queries----------------------- */
+
+@media (max-width: 1199px) {
+  .feature-container {
+    margin-top: 0rem !important;
+  }
+  .owl-carousel  .mycarditem .custom-btn{
+   
+    bottom: 91px;
+  }
+}
+
+@media (max-width: 991px) {
+  .owl-height {
+    height: 600px !important;
+  }
+  .custom-card {
+    width: 100%;
+    position: static;
+    margin-top: 38px;
+    margin-bottom: 38px;
+  }
+  .owl-carousel .owl-item .blue-card .custom-btn {
+    position: relative;
+    top: -256px !important;
+  }
+  .gallery-header {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .gallery-carousel .owl-item.center {
+    /* transform: scale(0.5);  */
+    transform: none; /* margin-left: -18px; */
+  }
+  .owl-carousel  .mycarditem .custom-btn{
+   
+    bottom: 67px;
+  }
+  .progress {
+    
+    left: 5rem!important;
+    
+}
+}
+@media (max-width: 767.98px) {
+  .blue-card-text {
+    top: -320px !important;
+  }
+  .owl-carousel .owl-item .blue-card .custom-btn {
+    top: -237px !important;
+  }
+  .owl-carousel  .mycarditem .custom-btn{
+   
+    bottom: 90px;
+  }
+  .progress {
+    
+    left: 3rem!important;
+    
+}
+}
+@media (max-width: 575.98px) {
+  .blue-card-text {
+    top: -550px !important;
+  }
+  .owl-carousel .owl-item .blue-card .custom-btn {
+    top: -334px !important;
+  }
+  .feature-container {
+    margin-top: 350px !important;
+  }
+}
+@media (max-width: 500px) {
+  .review-card{
+    width: 350px;
+  }
+  .feature-container {
+    margin-top: 250px !important;
+  }
+  .owl-carousel  .mycarditem .custom-btn{
+   
+    bottom: 65px;
+  }
+  .progress {
+    
+    left: 1rem!important;
+    
+}
+}
+@media (max-width: 400px) {
+  .feature-container {
+    margin-top: 100px !important;
+  }
+
+}
+@media (max-width: 300px) {
+  .feature-container {
+    margin-top: 50px !important;
+  }
+
+}
